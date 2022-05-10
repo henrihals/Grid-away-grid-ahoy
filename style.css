@@ -17,16 +17,19 @@ body {
 /*-------------------------------- Case-----------------------*/
 .Case {
     width: 200px;
-    height: 300px;
+    height: 350px;
     background-color: #ffffff;
     border: 2px solid #ebebeb;
     border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /*------------------------------Images---------------------------*/
 img {
     width: 70px;
     height: 70px;
-    display: flex;
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
@@ -53,12 +56,18 @@ p {
     margin-bottom: 20px;
 }
 /*------------------------------Button---------------------------*/
-button {
+a {
     margin-bottom: 10px;
     text-align: center;
     margin: 0 auto;
-    display: flex;
+    text-decoration: none;
+    padding: 15px 40px;
 }
-button:hover {
+a:hover {
     background-color: #4AAAF4;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
